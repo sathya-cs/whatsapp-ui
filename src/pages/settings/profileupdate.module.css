@@ -1,0 +1,179 @@
+.main {
+  width: 100%;
+  padding: 15px 10px;
+}
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+  gap: 20px;
+}
+.layoutright {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formcard {
+  flex: 1;
+  align-self: flex-start;
+  border-radius: 10px;
+  width: 800px;
+}
+.formheading {
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 20px 30px;
+}
+.formdividerline {
+  display: block;
+  height: 0.2px;
+  border: 0;
+  border-top: 0.2px solid lightgrey;
+  padding: 0;
+}
+.formitems {
+  display: flex;
+  flex-direction: column;
+}
+.formitem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  padding: 20px 30px 20px 30px;
+}
+.formlabel {
+  display: block;
+  width: 200px;
+  min-width: 0;
+  padding: 0px 0px 10px 0px;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3f4254;
+}
+.forminput {
+  display: block;
+  flex-grow: 1;
+  min-width: 0;
+  padding: 10px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: #3f4254;
+  font-size: 16px;
+  font-weight: 400;
+}
+.forminputforaddress {
+  display: block;
+  height: 100px;
+  flex-grow: 1;
+  min-width: 0;
+  padding: 10px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  color: #3f4254;
+  font-size: 16px;
+  font-weight: 400;
+  resize: none;
+  overflow: hidden;
+}
+.formbtndivider {
+  display: block;
+  height: 0.2px;
+  border: 0;
+  border-top: 0.2px solid lightgrey;
+  margin: 0px 30px;
+}
+.formbtns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 20px 50px 20px 30px;
+}
+.formbtn {
+  color: #3f4254;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formbtn:hover {
+  background-color: #ff577f;
+  color: #fff;
+}
+
+.accountinfocard,
+.companyinfocard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  padding: 15px 25px 25px 25px;
+  border-radius: 10px;
+}
+.accountinfoitem,
+.companyinfoitem {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+.accountinfoheading,
+.companyinfoheading {
+  font-size: 20px;
+  font-weight: 600px;
+}
+.accountinfocard h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f4254;
+}
+.accountinfocard p {
+  color: #5e6278;
+  font-size: 16px;
+  font-weight: 600px;
+}
+.companyinfocard h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f4254;
+}
+.companyinfocard p {
+  color: #5e6278;
+  font-size: 16px;
+  font-weight: 600px;
+}
+@media screen and (max-width: 768px) {
+  .layoutright {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  .formitem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+    padding: 20px 30px 20px 30px;
+  }
+  .formlabel {
+    width: 100%;
+  }
+  .forminput {
+    width: 100%;
+  }
+  .forminputforaddress {
+    width: 100%;
+  }
+}

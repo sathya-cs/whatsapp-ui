@@ -1,0 +1,71 @@
+.loginpage {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ff8787, #ffa8a8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginpage .logincard {
+  min-width: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(235, 231, 231, 0.4784313725);
+  border-radius: 10px;
+  padding: 30px;
+}
+.loginpage img {
+  width: 100%;
+}
+.loginpage form {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 10px 0px 0px;
+}
+.loginpage .formitem {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.loginpage label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.loginpage input {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: gray;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.loginpage input::placeholder {
+  font-size: 16px;
+}
+.loginpage .login {
+  align-self: center;
+}
+.loginpage button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #3c79f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginpage button:hover {
+  background-color: #0081c9;
+}
+@media only screen and (max-width: 768px) {
+  .loginpage {
+    padding: 0px 30px;
+  }
+  .loginpage .logincard {
+    flex: 1;
+  }
+}

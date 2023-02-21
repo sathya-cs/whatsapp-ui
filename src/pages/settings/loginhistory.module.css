@@ -1,0 +1,110 @@
+.main {
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.tablecard {
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+.tablehead {
+  padding: 20px 20px;
+}
+.tabletitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tabledivider {
+  display: block;
+  height: 0.2px;
+  border: 0;
+  border-top: 0.2px solid lightgrey;
+}
+.tabledetails {
+  padding: 0px 0px 40px 0px;
+}
+.loginhistorytable {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+.loginhistorytablehead {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3f4254;
+}
+.loginhistorytablebody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7e8299;
+}
+.loginhistorytable td {
+  text-align: left;
+  padding: 20px 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+.loginhistorytable th {
+  text-align: left;
+  padding: 20px 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.loginhistorytable td:nth-child(2) {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.loginhistorytable th:nth-child(2) {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.loginhistorytablehead tr {
+  background-color: #f8f9fa;
+}
+/***pagination
+  
+  .container {
+    padding: 20px;
+  }
+  .pagination {
+    display: flex;
+    list-style: none;
+  }
+  .pagination li {
+    background: #f8f9fa;
+    text-align: center;
+    margin: 0px 5px;
+    padding: 5px;
+  }
+  .pagination li a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #4d3252;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .pagination li:first-child a {
+    width: 120px;
+  }
+  .pagination li:last-child a {
+    width: 100px;
+  }
+  .pagination li.active {
+    box-shadow: inset -3px -3px 7px #ffffff73,
+      inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+  }
+  .pagination li.active a {
+    font-size: 17px;
+    color: #6f6cde;
+  }
+  .pagination li:first-child {
+    margin: 0 15px 0 0;
+  }
+  .pagination li:last-child {
+    margin: 0 0 0 15px;
+  }
+  ****/

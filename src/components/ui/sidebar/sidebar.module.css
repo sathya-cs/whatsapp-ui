@@ -1,0 +1,68 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: #232323;
+  color: #fff;
+  width: 300px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 20px;
+}
+.logoimg {
+  vertical-align: middle;
+  width: 30px;
+  border: none;
+}
+.logotitle {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.menu {
+  padding-top: 40px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.link:hover {
+  background: #ff697c;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon,
+.link_text {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+}

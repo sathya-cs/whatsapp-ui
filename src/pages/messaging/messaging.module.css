@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  padding: 15px 10px;
+}
+.menuitem {
+  list-style: none;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(61, 58, 58);
+}
+.active {
+  text-decoration: none;
+  color: rgb(0, 170, 255);
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+}

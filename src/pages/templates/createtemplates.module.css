@@ -1,0 +1,68 @@
+.main {
+  width: 100%;
+  padding: 15px 10px;
+}
+.Createtemplatescard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.Createtemplatescard p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+}
+.templatecardhead {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.set {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600px;
+}
+.border {
+  flex-grow: 1;
+}
+.hint {
+  font-size: 16px;
+  font-weight: 600;
+}
+.entertemplatename {
+  width: 300px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.middlesetitems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.bottomsetitems {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .entertemplatename {
+    width: 100%;
+    min-width: 0;
+  }
+}

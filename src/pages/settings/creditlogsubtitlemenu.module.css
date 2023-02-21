@@ -1,0 +1,39 @@
+.titlemenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+.titlemenuitems {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.titlemenuitems:hover {
+  background-color: #fff6f8;
+}
+.active {
+  text-decoration: none;
+  color: #ff577f;
+}
+.navlink {
+  text-decoration: none;
+  color: #3f4254;
+}
+.navlink:hover {
+  color: #ff577f;
+}
+@media screen and (max-width: 768px) {
+  .titlemenu {
+    gap: 0px;
+  }
+  .titlemenuitems {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+}

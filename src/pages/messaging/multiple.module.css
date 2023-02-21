@@ -1,0 +1,309 @@
+.main {
+  width: 100%;
+  padding: 15px 10px;
+}
+.subtitlecard_menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.menuitem {
+  list-style: none;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 600;
+
+  border-radius: 5px;
+}
+.menuitem:hover {
+  background-color: #fff6f8;
+}
+.active {
+  text-decoration: none;
+  color: #ff577f;
+}
+.navlink {
+  text-decoration: none;
+  color: #3f4254;
+}
+.chatbtn {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #ff577f;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  outline: none;
+  border: none;
+}
+.chatbtn:hover {
+  background-color: #fff6f8;
+  color: #ff577f;
+}
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+/**form**/
+.formcontrol {
+  flex: 1;
+  align-self: flex-start;
+  height: auto;
+  width: 800px;
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+.choosen {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 0px 20px 0px;
+}
+.choosentitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+.radiobtnlabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86899a;
+}
+.radioinput {
+  height: 20px;
+  width: 20px;
+}
+.scheduledateselect {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px 0px 30px 0px;
+  color: #86899a;
+  font-size: 14px;
+  font-weight: 400;
+}
+.schedulelabel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background: #fff2f2;
+  border-radius: 5px;
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.26);
+}
+.schedulelabelforcheck {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0px;
+}
+.scheduledatecheck {
+  width: 20px;
+  height: 20px;
+}
+.selectdate,
+.selecttime {
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  color: #ff577f;
+  border: none;
+  background: none;
+}
+.formfield {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.inputfield {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.textareainputfield {
+  width: 100%;
+}
+.msgarea {
+  width: 100%;
+  height: 150px;
+  display: block;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.formlabel {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.forminput {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.formcontrol select {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+  border-right: 16px solid transparent;
+  color: #7e8299;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formcontrol option {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.formcontrol .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+.formcontrol .btn .submitbtn {
+  background-color: #ff577f;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.formcontrol .btn .submitbtn:hover {
+  background-color: #fdf3f7;
+  color: #ff577f;
+}
+
+.templatecard {
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 615px;
+}
+.templatecard .top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.templatecard .templatecardtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+.templatecard .managebtn {
+  align-self: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8d7e4;
+  color: #ff577f;
+  font-size: 12px;
+  font-weight: 600;
+}
+.templatecard .top p {
+  color: rgba(128, 128, 128, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.templatecardinput {
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid white;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+  color: grey;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+}
+.templatecard input::placeholder {
+  color: rgba(128, 128, 128, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+}
+.templatecard .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+.templatecard .templates1,
+.templates2,
+.templates3,
+.templates4 {
+  border: 1px dashed #ff577f;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.templates2 {
+  padding: 0px 10px;
+  border: none;
+}
+.templatescontent {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 10px;
+  color: #7e8299;
+}
+
+.templatecard .bottom {
+  background-color: #fff6f8;
+  border: 1px dashed #ff577f;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.bottom .applybtn {
+  align-self: flex-end;
+  padding: 5px 10px;
+  background-color: #f8d7e4;
+  color: #ff577f;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .inputfield {
+    margin-bottom: 15px;
+    width: 100%;
+    min-width: 0px;
+  }
+  .radiobtnlabel {
+    margin-top: 10px;
+  }
+}

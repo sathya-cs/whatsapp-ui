@@ -1,0 +1,54 @@
+.widget {
+  display: flex;
+  justify-content: space-around;
+  min-width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px 0px 0px 0;
+  background-color: #f5f6fa;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+}
+.widget .left {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.widget h1 {
+  padding: 0;
+  margin: 0;
+}
+.widget .messageaction {
+  display: flex;
+  align-items: center;
+}
+.widget p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6a6b6b;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+.widget .msgactionicon {
+  font-size: 20px;
+  color: grey;
+  padding-left: 5px;
+  margin-top: 15px;
+}
+.widget .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #54b435;
+  border-radius: 50px;
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 400px) {
+  .widget {
+    flex: 1;
+  }
+}

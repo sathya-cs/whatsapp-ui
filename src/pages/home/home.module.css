@@ -1,0 +1,120 @@
+.home {
+  display: flex;
+  background-color: #f9f2f2;
+}
+.home .sidebarcontainer {
+  flex: 1;
+}
+.home .homecontainer {
+  flex: 6;
+}
+.home .card {
+  width: auto;
+  height: auto;
+  margin: 30px;
+}
+.home h2 {
+  font-size: 24px;
+  letter-spacing: 0;
+  padding-left: 30px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.home .widgetcards {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0px 15px 15px 15px;
+}
+.home .chartcard {
+  margin: 100px 0px 30px 80px;
+  padding: 40px 10px 5px 10px;
+  width: 450px;
+
+  position: relative;
+}
+.home .chartheading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  letter-spacing: 0;
+  font-weight: 600;
+  padding: 0;
+}
+.home .kebab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 45px;
+  right: 30px;
+  background-color: whitesmoke;
+  color: rgb(76, 72, 72);
+  font-size: 12px;
+  transform: rotate(90deg);
+  border-radius: 3px;
+}
+.home select {
+  display: block;
+  min-width: 265px;
+  min-height: 40px;
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  border: 0;
+  color: gray;
+  border-radius: 5px;
+  font-family: sans-serif;
+  background: whitesmoke;
+  outline: none;
+  border-right: 16px solid transparent;
+}
+
+.home .chart {
+  width: 450px;
+  height: 300px;
+  margin-top: 30px;
+}
+.home .legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 10px 10px 5px 45px;
+  margin-top: 30px;
+}
+.home .legenditem {
+  display: flex;
+  align-items: center;
+}
+.home button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.home .btn1 {
+  color: rgb(245, 110, 179);
+  border: 2px solid rgb(245, 110, 179);
+}
+.home .btn2 {
+  color: rgb(75, 86, 210);
+  border: 2px solid rgb(75, 86, 210);
+}
+.home .btn3 {
+  color: rgb(244, 157, 26);
+  border: 2px solid rgb(244, 157, 26);
+}
+
+.home .legendtitle {
+  margin-left: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}

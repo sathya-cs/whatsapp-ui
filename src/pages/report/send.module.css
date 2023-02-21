@@ -1,0 +1,93 @@
+.main {
+  width: 100%;
+  padding: 15px 10px;
+}
+.formcontrol {
+  height: auto;
+  width: 800px;
+  min-width: 0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.formfield {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  min-width: 0;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.inputfield {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.textareainputfield {
+  width: 100%;
+}
+.msgarea {
+  width: 100%;
+  min-width: 0;
+  height: 150px;
+  display: block;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.formlabel {
+  display: block;
+  min-width: 0;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.forminput {
+  height: 45px;
+  width: 100%;
+  min-width: 0;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.formcontrol select {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+  border-right: 16px solid transparent;
+  color: #7e8299;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 0;
+}
+
+.formcontrol option {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tablecard {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .formcontrol {
+    width: auto;
+  }
+  .inputfield {
+    width: 100%;
+    min-width: 0;
+  }
+}
