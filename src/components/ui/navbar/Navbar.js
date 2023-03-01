@@ -81,9 +81,9 @@ const Navbar = () => {
             Balance:
             <span className={classes.icon2}>1,000</span>
           </p>
-          <span class={classes.dropdown}>
-            <button class={classes.dropbtn}>Hi,Sean</button>
-            <span class={classes.dropdowncontent}>
+          <span className={classes.dropdown}>
+            <button className={classes.dropbtn}>Hi,Sean</button>
+            <span className={classes.dropdowncontent}>
               <Link to="/settings/profile-update">Setting</Link>
               <Link to="/">LogOut</Link>
             </span>
