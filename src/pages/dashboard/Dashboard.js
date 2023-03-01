@@ -36,14 +36,14 @@ ChartJS.register(
 );
 /********widget components data******/
 const widgetdata = [
-  { count: 1081, messageaction: "sent", icon: <DoneIcon /> },
-  { count: 1062, messageaction: "Delivered", icon: <DoneAllIcon /> },
-  { count: 946, messageaction: "Read", icon: <RemoveRedEyeIcon /> },
-  { count: 83, messageaction: "Replied", icon: <ReplyAllIcon /> },
-  { count: 0, messageaction: "Sending", icon: <SendIcon /> },
-  { count: 2, messageaction: "Failed", icon: <HighlightOffIcon /> },
-  { count: 0, messageaction: "processing", icon: <CachedIcon /> },
-  { count: 0, messageaction: "Queued", icon: <AutoAwesomeMotionIcon /> },
+  { id:1, count: 1081, messageaction: "sent", icon: <DoneIcon /> },
+  { id:2, count: 1062, messageaction: "Delivered", icon: <DoneAllIcon /> },
+  { id:3, count: 946, messageaction: "Read", icon: <RemoveRedEyeIcon /> },
+  { id:4, count: 83, messageaction: "Replied", icon: <ReplyAllIcon /> },
+  { id:5, count: 0, messageaction: "Sending", icon: <SendIcon /> },
+  { id:6, count: 2, messageaction: "Failed", icon: <HighlightOffIcon /> },
+  { id:7, count: 0, messageaction: "processing", icon: <CachedIcon /> },
+  { id:8, count: 0, messageaction: "Queued", icon: <AutoAwesomeMotionIcon /> },
 ];
 
 const Dashboard = () => {
@@ -123,11 +123,13 @@ const Dashboard = () => {
           <div className={classes.widgetcards}>
             {widgetdata.map((data) => {
               return (
+                <li key={data.id}>
                 <Widget
                   count={data.count}
                   messageaction={data.messageaction}
                   icon={data.icon}
                 />
+                    </li>
               );
             })}
           </div>
